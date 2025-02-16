@@ -1,0 +1,100 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6055604b600b8282823980515f1a607314603f577f4e487b71000000000000000000000000000000000000000000000000000000005f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212209fcef7be1263adba22a231b9ca3c77d85d17ce53cf0ffb6e04abaac2ebf3cfd364736f6c634300081a0033",
+			"opcodes": "PUSH1 0x55 PUSH1 0x4B PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH0 BYTE PUSH1 0x73 EQ PUSH1 0x3F JUMPI PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH0 MSTORE PUSH0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH0 REVERT JUMPDEST ADDRESS PUSH0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP16 0xCE 0xF7 0xBE SLT PUSH4 0xADBA22A2 BALANCE 0xB9 0xCA EXTCODECOPY PUSH24 0xD85D17CE53CF0FFB6E04ABAAC2EBF3CFD364736F6C634300 ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "13261:16452:15:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212209fcef7be1263adba22a231b9ca3c77d85d17ce53cf0ffb6e04abaac2ebf3cfd364736f6c634300081a0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP16 0xCE 0xF7 0xBE SLT PUSH4 0xADBA22A2 BALANCE 0xB9 0xCA EXTCODECOPY PUSH24 0xD85D17CE53CF0FFB6E04ABAAC2EBF3CFD364736F6C634300 ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "13261:16452:15:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17000",
+				"executionCost": "92",
+				"totalCost": "17092"
+			},
+			"internal": {
+				"add(uint256,uint256,bool)": "infinite",
+				"allow(uint256,address)": "infinite",
+				"allowTransient(uint256,address)": "infinite",
+				"and(uint256,uint256,bool)": "infinite",
+				"cast(uint256,uint8)": "infinite",
+				"cleanTransientStorageACL()": "infinite",
+				"cleanTransientStorageInputVerifier()": "infinite",
+				"div(uint256,uint256)": "infinite",
+				"eq(uint256,bytes memory,bool)": "infinite",
+				"eq(uint256,uint256,bool)": "infinite",
+				"ge(uint256,uint256,bool)": "infinite",
+				"getFHEVMConfig()": "infinite",
+				"gt(uint256,uint256,bool)": "infinite",
+				"isAllowed(uint256,address)": "infinite",
+				"le(uint256,uint256,bool)": "infinite",
+				"lt(uint256,uint256,bool)": "infinite",
+				"max(uint256,uint256,bool)": "infinite",
+				"min(uint256,uint256,bool)": "infinite",
+				"mul(uint256,uint256,bool)": "infinite",
+				"ne(uint256,bytes memory,bool)": "infinite",
+				"ne(uint256,uint256,bool)": "infinite",
+				"neg(uint256)": "infinite",
+				"not(uint256)": "infinite",
+				"or(uint256,uint256,bool)": "infinite",
+				"rand(uint8)": "infinite",
+				"randBounded(uint256,uint8)": "infinite",
+				"rem(uint256,uint256)": "infinite",
+				"rotl(uint256,uint256,bool)": "infinite",
+				"rotr(uint256,uint256,bool)": "infinite",
+				"select(uint256,uint256,uint256)": "infinite",
+				"setFHEVM(struct FHEVMConfigStruct memory)": "infinite",
+				"shl(uint256,uint256,bool)": "infinite",
+				"shr(uint256,uint256,bool)": "infinite",
+				"sub(uint256,uint256,bool)": "infinite",
+				"trivialEncrypt(bytes memory,uint8)": "infinite",
+				"trivialEncrypt(uint256,uint8)": "infinite",
+				"verify(bytes32,bytes memory,uint8)": "infinite",
+				"xor(uint256,uint256,bool)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

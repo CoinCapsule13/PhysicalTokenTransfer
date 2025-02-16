@@ -1,0 +1,941 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"cast(uint256,bytes1)": "4be68d20",
+			"fheAdd(uint256,uint256,bytes1)": "f953e427",
+			"fheBitAnd(uint256,uint256,bytes1)": "666a3588",
+			"fheBitOr(uint256,uint256,bytes1)": "ec4057dc",
+			"fheBitXor(uint256,uint256,bytes1)": "2c7d67b7",
+			"fheDiv(uint256,uint256,bytes1)": "36cdd31b",
+			"fheEq(uint256,bytes,bytes1)": "bc47139a",
+			"fheEq(uint256,uint256,bytes1)": "6be31758",
+			"fheGe(uint256,uint256,bytes1)": "052896f1",
+			"fheGt(uint256,uint256,bytes1)": "3e63c50a",
+			"fheIfThenElse(uint256,uint256,uint256)": "cb3b9407",
+			"fheLe(uint256,uint256,bytes1)": "694daf72",
+			"fheLt(uint256,uint256,bytes1)": "9675211f",
+			"fheMax(uint256,uint256,bytes1)": "a86e9de5",
+			"fheMin(uint256,uint256,bytes1)": "a87deac4",
+			"fheMul(uint256,uint256,bytes1)": "816d57d3",
+			"fheNe(uint256,bytes,bytes1)": "0b90dfc3",
+			"fheNe(uint256,uint256,bytes1)": "19271081",
+			"fheNeg(uint256)": "a8b42a89",
+			"fheNot(uint256)": "13801ffa",
+			"fheRand(bytes1)": "900d294e",
+			"fheRandBounded(uint256,bytes1)": "fa33b7af",
+			"fheRem(uint256,uint256,bytes1)": "e0c516ae",
+			"fheRotl(uint256,uint256,bytes1)": "05907343",
+			"fheRotr(uint256,uint256,bytes1)": "44ae9c5c",
+			"fheShl(uint256,uint256,bytes1)": "89a4314b",
+			"fheShr(uint256,uint256,bytes1)": "eee1833c",
+			"fheSub(uint256,uint256,bytes1)": "8c14cc21",
+			"trivialEncrypt(bytes,bytes1)": "e0c5cbb3",
+			"trivialEncrypt(uint256,bytes1)": "e71746b8",
+			"verifyCiphertext(bytes32,address,bytes,bytes1)": "2e817ff0"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "ct",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "toType",
+					"type": "bytes1"
+				}
+			],
+			"name": "cast",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheAdd",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheBitAnd",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheBitOr",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheBitXor",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheDiv",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheEq",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes",
+					"name": "rhs",
+					"type": "bytes"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheEq",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheGe",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheGt",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "control",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "ifTrue",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "ifFalse",
+					"type": "uint256"
+				}
+			],
+			"name": "fheIfThenElse",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheLe",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheLt",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheMax",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheMin",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheMul",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes",
+					"name": "rhs",
+					"type": "bytes"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheNe",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheNe",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "ct",
+					"type": "uint256"
+				}
+			],
+			"name": "fheNeg",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "ct",
+					"type": "uint256"
+				}
+			],
+			"name": "fheNot",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "bytes1",
+					"name": "randType",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheRand",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "upperBound",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "randType",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheRandBounded",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheRem",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheRotl",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheRotr",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheShl",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheShr",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "lhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "rhs",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "scalarByte",
+					"type": "bytes1"
+				}
+			],
+			"name": "fheSub",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "bytes",
+					"name": "ct",
+					"type": "bytes"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "toType",
+					"type": "bytes1"
+				}
+			],
+			"name": "trivialEncrypt",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "ct",
+					"type": "uint256"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "toType",
+					"type": "bytes1"
+				}
+			],
+			"name": "trivialEncrypt",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "bytes32",
+					"name": "inputHandle",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "address",
+					"name": "callerAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes",
+					"name": "inputProof",
+					"type": "bytes"
+				},
+				{
+					"internalType": "bytes1",
+					"name": "inputType",
+					"type": "bytes1"
+				}
+			],
+			"name": "verifyCiphertext",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "result",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

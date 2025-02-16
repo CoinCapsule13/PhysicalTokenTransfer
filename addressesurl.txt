@@ -1,0 +1,26 @@
+0x38E0D006053E677D35a4DB5B91Ee0fb8d4110a13-token
+https://iconoclast-swarmtoken.surge.sh/
+
+
+
+0x004E1Ce38034B1A95373394A057C254676cCbE01-feevault
+https://multiasset-vault.surge.sh/
+
+
+
+0xE00e4846C6A77183e7AB2Eee1E57BC16Eb86113d-hasher
+
+
+
+0x418b7F504fA01522767b36Fe664054b1156F298d-tokensale
+https://physical-tokensale.surge.sh/
+
+
+
+0x377FE1373aE2F920E0a1C7D7B5fBACEDDd657bD8-physical token transfer
+https://physical-transfer.surge.sh/
+
+
+
+
+deployer address 0x0f49D159584BB00ddE486Ecb814881D672Db226F
